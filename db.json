@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "name": "Cary Weimann",
-      "id": 1
-    },
-    {
       "name": "Archie Swift",
       "id": 5
     },
@@ -17,6 +13,12 @@
       "id": 8
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking",
+      "userId": 5
+    }
+  ],
   "photos": []
 }
