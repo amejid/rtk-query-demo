@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Cary Weimann",
+      "id": 1
+    },
+    {
+      "name": "Archie Swift",
+      "id": 5
+    },
+    {
+      "name": "Judy Abernathy Sr.",
+      "id": 7
+    },
+    {
+      "name": "Shelly Ankunding",
+      "id": 8
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
