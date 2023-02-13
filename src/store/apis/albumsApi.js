@@ -10,7 +10,7 @@ const albumsApi = createApi({
     return {
       addAlbum: build.mutation({
         invalidatesTags(result, error, userId) {
-          return [{ type: "Album", id: userId }];
+          return [{ type: "UsersAlbums", id: userId }];
         },
         query(userId) {
           return {
@@ -25,7 +25,11 @@ const albumsApi = createApi({
       }),
       fetchAlbums: build.query({
         providesTags(result, error, userId) {
-          return [{ type: "Album", id: userId }];
+          const tags = result.map((album) => {
+            return { type: "Album", id: album.id };
+          });
+          tags.push({ type: "UsersAlbums", id: userId });
+          return tags;
         },
         query(userId) {
           return {
@@ -38,12 +42,12 @@ const albumsApi = createApi({
         },
       }),
       deleteAlbum: build.mutation({
-        invalidatesTags(result, error, album) {
-          return [{ type: "Album", id: album.userId }];
+        invalidatesTags(result, error, albumId) {
+          return [{ type: "Album", id: albumId }];
         },
-        query(album) {
+        query(albumId) {
           return {
-            url: `/albums/${album.id}`,
+            url: `/albums/${albumId}`,
             method: "DELETE",
           };
         },

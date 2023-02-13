@@ -1,43 +1,38 @@
 {
   "users": [
     {
-      "name": "Archie Swift",
-      "id": 5
+      "name": "Julian Yundt",
+      "id": 1
     },
     {
-      "name": "Judy Abernathy Sr.",
-      "id": 7
+      "name": "Woodrow Walter",
+      "id": 2
     },
     {
-      "name": "Shelly Ankunding",
-      "id": 8
+      "name": "Melinda Bins",
+      "id": 3
     }
   ],
   "albums": [
     {
-      "userId": 5,
-      "title": "Luxurious Frozen Chicken",
-      "id": 16
+      "userId": 1,
+      "title": "Handcrafted Bronze Ball",
+      "id": 2
     },
     {
-      "userId": 7,
-      "title": "Incredible Plastic Gloves",
-      "id": 19
+      "userId": 2,
+      "title": "Oriental Steel Cheese",
+      "id": 5
     },
     {
-      "userId": 7,
-      "title": "Modern Steel Shirt",
-      "id": 20
+      "userId": 3,
+      "title": "Sleek Rubber Chair",
+      "id": 7
     },
     {
-      "userId": 5,
-      "title": "Handmade Bronze Towels",
-      "id": 21
-    },
-    {
-      "userId": 8,
-      "title": "Oriental Fresh Chips",
-      "id": 23
+      "userId": 3,
+      "title": "Refined Concrete Bike",
+      "id": 8
     }
   ],
   "photos": []
