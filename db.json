@@ -33,7 +33,73 @@
       "userId": 3,
       "title": "Refined Concrete Bike",
       "id": 8
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Soft Towels",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "title": "Electronic Steel Soap",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "title": "Refined Granite Chicken",
+      "id": 11
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=66570",
+      "id": 6
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=31197",
+      "id": 7
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=91709",
+      "id": 8
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=91670",
+      "id": 9
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=85872",
+      "id": 10
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8895",
+      "id": 11
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=12636",
+      "id": 12
+    },
+    {
+      "albumId": 9,
+      "url": "https://loremflickr.com/150/150/abstract?lock=85583",
+      "id": 13
+    },
+    {
+      "albumId": 9,
+      "url": "https://loremflickr.com/150/150/abstract?lock=32691",
+      "id": 14
+    },
+    {
+      "albumId": 9,
+      "url": "https://loremflickr.com/150/150/abstract?lock=74409",
+      "id": 15
+    }
+  ]
 }
